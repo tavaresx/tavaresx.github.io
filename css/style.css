@@ -1,0 +1,244 @@
+@charset "UTF-8";
+
+/* Corpo de todo o site*/
+
+body.contentSite {
+	margin: auto auto auto 0px;
+
+}
+
+/* Corpo de todo o site até aqui!*/
+
+/* Todo o topo do site*/
+
+header#topSite div.headName{
+	font-family: Verdana, sans-serif;
+	position: absolute;
+	margin: 70px 0px 0px 50px;
+	color: #2c3e50;
+}
+
+header#topSite {
+	background-color: #3498db;
+	height: 350px;
+}
+
+/* Termina aqui configurações top do site*/
+
+/* Menu do site*/
+
+nav#menuSite {
+	display: block;
+}
+
+nav#menuSite ul{
+	text-transform: uppercase;
+	list-style: none;
+	position: absolute;
+	top: -20px;
+	left: 700px;
+}
+
+nav#menuSite li{
+	display: inline-block;
+	padding: 10px;
+	margin: 2px;
+	margin-top: 314.5px;
+	background-color: #2ecc71;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	-webkit-transition: all 1s linear;
+	-moz-transition: all 1s linear;
+	-o-transition: all 1s linear;
+	transition: all 1s linear;
+}
+
+nav#menuSite li:hover {
+	background-color: #2c3e50;
+	-webkit-transition: all 1s linear;
+	-moz-transition: all 1s linear;
+	-o-transition: all 1s linear;
+	transition: all 1s linear;
+}
+
+nav#menuSite a {
+	font-family: Verdana, sans-serif;
+	text-decoration: none;
+	color: #2c3e50;
+	display: block;
+}
+nav#menuSite a:hover {
+	color: #3498db;
+}
+
+/* Menu termina aqui*/
+
+
+/* Sessão quem sou eu*/
+
+section#sectionQuemSou {
+	height: 600px;
+	background-color: #2ecc71;
+}
+
+article#quemsouSite {
+	position: absolute;
+}
+
+article#quemsouSite h1 {
+	font-family: Verdana, sans-serif;
+	font-size: 40px;
+	margin: 80px 30px 80px 30px;
+	color: #2c3e50;
+
+}
+
+/* Sessão quem sou eu termina aqui*/
+
+/* Sessão Portifolio*/
+
+section#sectionPortifolioSite {
+	height: 600px;
+	background-color: #16a085;
+}
+
+article#portifolio {
+	position: absolute;
+}
+
+article#portifolio h1 {
+	font-family: Verdana, sans-serif;
+	font-size: 40px;
+	margin: 30px 18px 0px 20px;
+	color: #2C3E50;
+}
+
+ul#portifolioQuadro {
+	position: absolute;
+	height: 475px;
+	margin: 200px 30px 0px 20px;
+	list-style: none;
+}
+
+ul#portifolioQuadro li {
+	float: left;
+	width: 190px;
+	height: 190px;
+	margin: 10px;
+	padding: 10px;
+	border: 2px solid #34495e;
+	background-color: #16a085;
+	-webkit-border-radius: 110px;
+	-moz-border-radius: 110px;
+	border-radius: 110px;
+}
+
+ul#portifolioQuadro li:hover {
+	/*background-color: #2980b9;*/
+	float: left;
+	width: 199px;
+	height: 199px;
+	margin: 10px;
+	border: 2px solid #34495e;
+	-webkit-border-radius: 110px;
+	-moz-border-radius: 110px;
+	border-radius: 110px;
+}
+
+/* Sessão Portifólio termina aqui!*/
+
+/* Sessão Menu contato começa aqui*/
+
+section#sectionMenuContato {
+	height: 400px;
+	background-color: #2980b9;
+}
+nav#menuContato {
+	display: block;
+}
+nav#menuContato ul {
+	position: absolute;
+	list-style: none;
+}
+nav#menuContato li {
+	display: inline-block;
+	padding: 30px;
+	margin: 105px 18px 0px 20px;
+}
+nav#menuContato a{
+	text-decoration: none;
+	color: #2c3e50;
+}
+nav#menuContato a i.fa-facebook-square:hover {
+	color: #34495e;
+	-webkit-transition: all .4s linear;
+	-moz-transition: all .4s linear;
+	-o-transition: all .4s linear;
+	transition: all .4s linear; 	
+}
+nav#menuContato a i.fa-twitter-square:hover {
+	color: #34495e;
+	-webkit-transition: all .4s linear;
+	-moz-transition: all .4s linear;
+	-o-transition: all .4s linear;
+	transition: all .4s linear;
+}
+nav#menuContato a i.fa-instagram:hover {
+	color: #34495e;
+	-webkit-transition: all .4s linear;
+	-moz-transition: all .4s linear;
+	-o-transition: all .4s linear;
+	transition: all .4s linear;
+}
+nav#menuContato a i.fa-google-plus-square:hover {
+	color: #34495e;
+	-webkit-transition: all .4s linear;
+	-moz-transition: all .4s linear;
+	-o-transition: all .4s linear;
+	transition: all .4s linear;
+}
+nav#menuContato a i.fa-linkedin-square:hover {
+	color: #34495e;
+	-webkit-transition: all .4s linear;
+	-moz-transition: all .4s linear;
+	-o-transition: all .4s linear;
+	transition: all .4s linear;	
+}
+nav#menuContato a i.fa-pencil-square-o:hover {
+	color: #34495e;
+	-webkit-transition: all .4s linear;
+	-moz-transition: all .4s linear;
+	-o-transition: all .4s linear;
+	transition: all .4s linear;	
+}
+nav#menuContato a i.fa-github-square:hover {
+	color: #34495e;
+	-webkit-transition: all .4s linear;
+	-moz-transition: all .4s linear;
+	-o-transition: all .4s linear;
+	transition: all .4s linear; 	
+}
+footer#finalSite {
+	height: 200px;
+	background-color: #c0392b;
+}
+
+footer#finalSite h5 {
+	position: absolute;
+	font-family: Verdana, sans-serif;
+	margin: 170px 0px 0px 495px;
+}
+
+footer#finalSite a {
+	text-decoration: none;	
+	color: #FFD700;
+}
+
+footer#finalSite a:hover {
+	color: #34495E;
+}
+/* Sessão Menu contato termina aqui*/
