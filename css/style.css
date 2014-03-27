@@ -15,11 +15,11 @@ header#topSite div.headName{
 	font-family: Verdana, sans-serif;
 	position: absolute;
 	margin: 70px 0px 0px 50px;
-	color: #2c3e50;
+	color: #fff;
 }
 
 header#topSite {
-	background-color: #3498db;
+	background-color: #475577;
 	height: 350px;
 }
 
@@ -93,7 +93,7 @@ article#quemsouSite h1 {
 	font-family: Verdana, sans-serif;
 	font-size: 40px;
 	margin: 80px 30px 80px 30px;
-	color: #2c3e50;
+	color: #222;
 
 }
 
@@ -103,7 +103,7 @@ article#quemsouSite h1 {
 
 section#sectionPortifolioSite {
 	height: 600px;
-	background-color: #16a085;
+	background-color: #7f8c8d;
 }
 
 article#portifolio {
@@ -114,7 +114,7 @@ article#portifolio h1 {
 	font-family: Verdana, sans-serif;
 	font-size: 40px;
 	margin: 30px 18px 0px 20px;
-	color: #2C3E50;
+	color: #222;
 }
 
 ul#portifolioQuadro {
@@ -131,7 +131,7 @@ ul#portifolioQuadro li {
 	margin: 10px;
 	padding: 10px;
 	border: 2px solid #34495e;
-	background-color: #16a085;
+	background-color: #7f8c8d;
 	-webkit-border-radius: 110px;
 	-moz-border-radius: 110px;
 	border-radius: 110px;
@@ -224,7 +224,7 @@ nav#menuContato a i.fa-github-square:hover {
 }
 footer#finalSite {
 	height: 200px;
-	background-color: #c0392b;
+	background-color: #f39c12;
 }
 
 footer#finalSite h5 {
@@ -235,7 +235,7 @@ footer#finalSite h5 {
 
 footer#finalSite a {
 	text-decoration: none;	
-	color: #FFD700;
+	color: #222;
 }
 
 footer#finalSite a:hover {
